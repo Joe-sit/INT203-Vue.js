@@ -1,32 +1,13 @@
 <script setup>
 const accounts = [{
-  name: 'salary',
-  amount: 10000
-},
-{
-  name: 'rent',
-  amount: -2500
-},
-{
-  name: 'parking free',
-  amount: 0
-},
-{
-  name: 'car fuel',
-  amount: -600
-},
-{
-  name: 'commission',
-  amount: 5500
-},
-{
-  name: 'upgrade CPU',
-  amount: -8000
-},
-{ name: 'ตีกะหรี่',
-  amount: -2500
+  name: 'salary',amount: 10000
+},{name: 'rent',amount: -2500
+},{name: 'parking free',amount: 0
+},{name: 'car fuel',amount: -600
+},{name: 'commission',amount: 5500
+},{name: 'upgrade CPU',amount: -8000
 }
- 
+
 ]
 const listStyle = 'list-style:none;';
 const sumAmount = accounts.map(item => item.amount).reduce((prev, curr) => prev + curr, 0);
