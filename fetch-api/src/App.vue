@@ -49,9 +49,7 @@ const createNewNote = async (newNoteDetail) => {
 <template>
   <div>
     <CreateEditNoteVue @createNote="createNewNote" />
-    <NoteList :noteList="notes"
-     @deleteNote="removeNote"
-     @editNote="toEditingMode" />
+    <NoteList :noteList="notes" @deleteNote="removeNote" @editNote="toEditingMode" />
   </div>
 </template>
 <style></style>

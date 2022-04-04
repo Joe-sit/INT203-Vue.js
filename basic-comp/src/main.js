@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from './CompButtonColorApp.vue'
 
 const a = createApp(App)
 a.mount('#app')
